@@ -15,7 +15,6 @@ function addressQuotes(url) {
 }
 
 const getArnieQuotes = async (urls) => {
-  // TODO: Implement this function.
   return Promise.all(urls.map((url) => addressQuotes(url)));
 };
 module.exports = {
